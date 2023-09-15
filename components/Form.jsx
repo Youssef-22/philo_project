@@ -23,7 +23,7 @@ function Form({
         className='mt-10 w-full max-w-2x1 flex flex-col gap-7 glassmorphism' 
         >
           <label>
-            <span className='font-satoshi font semibold text-base text-gray-700'>
+            <span className='font-satoshi font semibold text-base text-white'>
               Your Quote</span>
           </label>
           <textarea
@@ -35,7 +35,7 @@ function Form({
           />
 
           <label>
-            <span className='font-satoshi font semibold text-base text-gray-700'>
+            <span className='font-satoshi font semibold text-base text-white'>
               Tag {' '}
               <span className='font-normal'>(#stoicism,#manga,#selfdevelopement)</span>
               </span>
@@ -49,7 +49,7 @@ function Form({
           />
 
           <div className='flex-end mx-3 mb-5 gap-4'>
-            <Link href="/" className='text-gray-500 yeaxt-sm '>
+            <Link href="/" className='text-white yeaxt-sm '>
             cancel
             </Link>
 

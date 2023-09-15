@@ -42,7 +42,7 @@ function Nav() {
                 <Link href="/create" className='black_btn'>
                 Create Post
                 </Link>
-                <button onClick={signOut} className='outline_btn'>
+                <button onClick={signOut} className='black_btn'>
                     Sign Out
                 </button>
                 <Link href='/profile'>

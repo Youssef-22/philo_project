@@ -11,7 +11,7 @@ function Home() {
         <p className='desc text-center'>
             Philo is an open-source website to discover 
             the best philosophy quotes that inspires people,
-            and share them with the world,get wiser us.
+            and share them with the world,get wiser with us.
         </p>
     
         <Feed />
