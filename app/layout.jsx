@@ -14,7 +14,14 @@ function RootLayout({ children }) {
     <body style={{backgroundColor:'black'}}>
         <Provider>
         <div>
-        <div className='gradient'/>    
+        <div className='gradient'/>   
+        <div className='media_img'>
+            <Image src='/assets/images/mediabg.png'
+            width={400}
+            height={1300}
+            alt='bgmedia'
+            />
+            </div> 
 
         <main className='app'>
             <Nav />
@@ -25,6 +32,7 @@ function RootLayout({ children }) {
             alt='bg'
             />
             </div>
+           
             {children}
         </main>
         </div>

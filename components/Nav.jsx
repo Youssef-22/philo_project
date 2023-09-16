@@ -113,7 +113,7 @@ function Nav() {
                 Object.values(providers).map((provider)=>(
                     <button key={provider.name}
                     onClick={()=>signIn(provider.id)}
-                    className='black-btn'
+                    className='black_btn'
                     >
                         Sign In
                     </button>

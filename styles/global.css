@@ -41,8 +41,11 @@
 }
 
 .background_img{
-  opacity: 0.3;
+  opacity: 0.4;
   position: absolute;
+}
+.media_img{
+  display: none;
 }
 
 .gradient {
@@ -77,6 +80,12 @@
   }
   .background_img{
     display: none;
+  }
+  .media_img{
+    display: flex;
+    opacity: 0.4;
+    position: absolute;
+    margin: 0 0;
   }
 }
 
